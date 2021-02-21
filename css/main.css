@@ -37,7 +37,7 @@ body {
 .navbar {
 	width: calc(100% - 30rem);
 	/*background-color: #f6b3a2;*/
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255);
 	/*background-color: rgba(224, 61, 21, 0.7);*/
 	font-color: black;
 	/*font-color: #333;*/
@@ -46,7 +46,18 @@ body {
 	border-bottom-right-radius: 0px;
 	border-bottom-left-radius: 0px;
 	margin: auto auto;
+
+	-webkit-transition: background-color 500ms linear; 
+	-moz-transition: background-color 500ms linear; 
+	-ms-transition: background-color 500ms linear; 
+	transition: background-color 500ms linear; 
 }
+
+.scrolled { background-color: rgba(255, 255, 255, 0.7); 
+	-webkit-transition: background-color 500ms linear; 
+	-moz-transition: background-color 500ms linear; 
+	-ms-transition: background-color 500ms linear; 
+	transition: background-color 500ms linear; }
 
 .nav-link {
 	font-size: 1.3rem;
