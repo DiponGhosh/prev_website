@@ -11,6 +11,10 @@ body {
 	max-width: 20%;
 }
 
+.normal-text {
+	font-size: 1.15em;
+}
+
 #about {
 	border-top-right-radius: 0px;
 	border-top-left-radius: 0px;
